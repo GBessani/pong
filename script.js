@@ -88,10 +88,10 @@ function updateScore() {
     document.getElementById('computerScore').innerText = computerScore;
 
     if (playerScore === 5) {
-        showMessage('Você venceu!');
+        showMessage('KRL TU É O BICHAO MESMO!');
         setTimeout(resetGame, 3000);
     } else if (computerScore === 5) {
-        showMessage('Você perdeu!', true);
+        showMessage('POHA TU PERDEU PRO PC??!', true);
         setTimeout(resetGame, 3000);
     }
 }

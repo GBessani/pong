@@ -5,11 +5,11 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #ff5555;
+    background-color: #000000;
 }
 
 canvas {
-    border: 2px solid #000000;
+    border: 2px solid #ffffff;
 }
 
 .scoreboard {
@@ -17,12 +17,12 @@ canvas {
     justify-content: space-between;
     width: 200px;
     margin-top: 20px;
-    color: #000000;
+    color: #ffffff;
     font-size: 2em;
 }
 
 #message {
-    color: #000000;
+    color: #ffffff;
     font-size: 2em;
     margin-top: 20px;
 }

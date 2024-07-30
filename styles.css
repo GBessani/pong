@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+}
+
+canvas {
+    border: 2px solid #fff;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 2em;
+}
+
+#message {
+    color: #fff;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
